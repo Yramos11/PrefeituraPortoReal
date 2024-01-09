@@ -1,0 +1,76 @@
+.bodySobre{
+
+	font-family: 'Roboto', sans-serif;
+	padding: 2em;
+}
+
+.sobre_mim h1{
+
+	margin-bottom: 1em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.div_sobre_mim p{
+
+	margin-bottom: 1em;
+	line-height: 1.2em;
+}
+
+.link_prefeitura a{
+
+	color: green;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.link_prefeitura:hover{
+
+	text-decoration: underline;
+}
+
+.div_cursos p{
+
+	margin-bottom: .5em;
+}
+
+.div_cursos ul li{
+
+	list-style-type: disc;
+	margin-left: 1.1em;
+	line-height: 1.5em;
+}
+
+.div_curriculo{
+
+	margin-top: 1.5em;
+}
+
+.curriculo a{
+
+	color: #851900;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.curriculo a:hover{
+
+	text-decoration: underline;
+}
+
+.div_certificacoes{
+
+	margin-top: 1.5em;
+}
+
+.div_certificacoes a{
+
+	color: #226cce;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.div_certificacoes a:hover{
+
+	text-decoration: underline;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<meta charset="utf-8" lang="pt-Br">
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="logosf.png" type="img/png+xml">
+	<title>Prefeitura de Porto Real</title>
+	<!-- ROBOTO -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<!-- PLAYFAIR DISPLAY -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body class="bodyIndex">
+
+	<button class="botaoDarkMode"><i class="mudarTema fa-solid fa-circle-half-stroke"></i></button>
+
+	<header class="cabecalho"> 
+
+		<div class="cabecalho_div1">
+			<h1><img src="logosf.png"></h1>
+			<div>
+				<h2>PREFEITURA DE</h2>
+				<h3>PORTO REAL - RJ</h3>
+			</div>
+		</div>
+
+		<div class="cabecalho_div2">
+			<nav>		
+				<ul>
+					<li><a href="#">Administração</a></li>
+					<li><a href="#">Nossa Cidade</a></li>
+					<li><a href="#">Secretarias</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="menu_hamburguer">
+			<button><i class="fa-solid fa-bars"></i></button>
+			<nav class="menuHamburguerDesativo menuHamburguerAtivo">
+				<ul>
+					<li><a href="#">Administração</a></li>
+					<li><a href="#">Nossa Cidade</a></li>
+					<li><a href="#">Secretarias</a></li>
+					<li class="darkMobile"><button>Dark Mode<i class="fa-regular fa-moon"></i></button></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="principal">
+
+		<div class="principal_img">
+			<img src="pontosTuristicos.jpeg">
+		</div>
+
+		<nav class="principal_listaLinks">
+			<ul>
+				<li>
+					<a href="#"><img src="ouvidoria.png"></a>
+					<p>Ouvidoria</p>
+				</li>
+				<li>
+					<a href="#"><img src="alerta.png"></a>
+					<p>Alerta</p>
+				</li>
+				<li>
+					<a href="#"><img src="serviços.png"></a>	
+					<p>Serviços</p>			
+				</li>
+				<li>
+					<a href="#"><img src="animal.png"></a>	
+					<p>Adote</p>				
+				</li>
+			</ul>
+		</nav>
+	</main>
+	<section class="sessao_noticias">
+		
+		<h1>ÚLTIMAS NOTÍCIAS</h1>
+
+		<div>			
+			<ul>
+				<li>
+					<img src="camera.png">
+					<h2>23/10/23</h2>
+					<p>TEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTO ILUSTRATIVO</p>
+				</li>
+				<li>
+					<img src="camera.png">
+					<h2>23/10/23</h2>
+					<p>TEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTOTEXTO ILUSTRATIVO</p>
+				</li>
+				<li>
+					<img src="camera.png">
+					<h2>23/10/23</h2>
+					<p>TEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTO ILUSTRATIVOTEXTO ILUSTRATIVO</p>
+				</li>
+				<li>
+					<img src="camera.png">
+					<h2>23/10/23</h2>
+					<p>TEXTO ILUSTRATIVOTEXTO ILUSTRATIVO</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="newsletter">
+		<h1>NEWSLETTER</h1>
+		<form>
+			<div>		
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+			</div>
+
+			<div>
+				<label for="Whatsapp">Whatsapp</label>
+				<input type="tel" name="whatsapp" id="whatsapp" placeholder="Digite seu whatsapp" required>
+			</div>
+
+			<div>
+				<label for="Email">E-mail</label>
+				<input type="email" name="Email" id="Email" placeholder="Digite seu e-mail" required>
+			</div>
+
+			<button class="cadastrar">Cadastrar</button>
+		</form>
+	</section>
+	<footer class="rodape">
+		<h1>Sobre mim</h1>
+		<p><a href="sobre_mim.html">Clique para saber mais</a></p>
+	</footer>
+</body>
+
+<script src="https://kit.fontawesome.com/ba54de80ea.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,41 @@
+.certificacoes{
+
+	padding-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.certificacoes h1{
+
+	font-size: 3em;
+	font-weight: bold;
+	color: lightblue;
+	text-align: center;
+	padding-top: 1em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.certificacoes div{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+}
+
+.certificacoes img{
+
+	width: 60%;
+	margin-top: 2em;
+}
+
+a{
+
+	align-self: center;
+	margin-top: 0.8em;
+	background-color: #cf11cf;
+	color: black;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	font-weight: bold;
+}

@@ -1,0 +1,31 @@
+body{
+
+	display: grid;
+	justify-items: center;
+	padding: 2em 0;
+}
+
+img{
+
+	display: flex;
+	border: 1px solid green;
+}
+
+a{
+
+	background-color: green;
+	margin-top: 0.8em;
+	padding: .5em 1em;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+@media(max-width: 500px){
+
+	img{
+
+		width: 80%;
+	}
+}
